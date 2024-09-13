@@ -1,0 +1,47 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+/* Card styles */
+.leader-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.leader-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.leader-card .card-body {
+    padding: 20px;
+}
+
+.leader-card h3 {
+    color: #333;
+}
+
+.leader-card p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
